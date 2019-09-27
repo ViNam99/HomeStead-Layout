@@ -147,7 +147,8 @@ a:focus {
 
 .nav__menu li:nth-child(4):hover ul {
     display: block;
-    padding: 1rem
+    padding: 1rem;
+    z-index: 999;
 }
 
 .nav__contact ul li i {
