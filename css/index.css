@@ -181,3 +181,66 @@ a:focus {
 .nav__contact ul li:last-child i {
     background-color: #F18CB3;
 }
+
+
+/* carousel */
+
+.carousel {
+    position: relative;
+    text-align: center
+}
+
+.carousel__items img {
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.carousel__items p {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: white;
+    font-size: 4rem;
+    width: 70%;
+    font-weight: 300
+}
+
+.carousel__inside {
+    position: absolute;
+    bottom: 35%;
+    left: 40%;
+    font-size: 2rem;
+}
+
+.carousel__inside a {
+    text-decoration: none;
+    color: #b06010;
+    padding: 3rem
+}
+
+.owl-nav button:first-child span {
+    position: absolute;
+    font-size: 10rem;
+    top: 40%;
+    left: 5%;
+    color: white;
+}
+
+.owl-nav button:nth-child(2) span {
+    position: absolute;
+    font-size: 10rem;
+    color: white;
+    top: 40%;
+    right: 5%;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 20%;
+    left: 48%;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background-color: #B06010
+}

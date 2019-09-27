@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
     <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
     <!-- main css -->
     <link rel="stylesheet" href="./css/index.css">
     <!--[if lt IE 9]>
@@ -96,7 +99,45 @@
 
     </nav>
     <section class="carousel">
+        <div class="owl-carousel owl-theme">
+            <div class="carousel__items item">
+                <img src="./img/banner.jpg" alt="">
+                <p>
+                    Residential and commercial building, remodeling & renovations experience
+                </p>
+                <div class="carousel__inside ">
+                    <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                    <a href="#"> <i class="fab fa-twitter"></i></a>
+                    <a href="#"> <i class="fab fa-dribbble"></i></a>
+                    <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                </div>
+            </div>
+            <div class="carousel__items item">
+                <img src="./img/banner-1.jpg" alt="">
+                <p>
+                    Residential and commercial building, remodeling & renovations experience
+                </p>
+                <div class="carousel__inside">
+                    <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                    <a href="#"> <i class="fab fa-twitter"></i></a>
+                    <a href="#"> <i class="fab fa-dribbble"></i></a>
+                    <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                </div>
+            </div>
+            <div class="carousel__items item">
+                <img src="./img/banner-2.jpg" alt="">
+                <p>
+                    Residential and commercial building, remodeling & renovations experience
+                </p>
+                <div class="carousel__inside">
+                    <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                    <a href="#"> <i class="fab fa-twitter"></i></a>
+                    <a href="#"> <i class="fab fa-dribbble"></i></a>
+                    <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                </div>
+            </div>
 
+        </div>
     </section>
     <section class="about">
 
@@ -118,6 +159,26 @@
     </footer>
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+    </script>
+    <!-- Owl carousel -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 1,
+            loop: true,
+            nav: true, // mũi tên
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true
+
+        });
+        // hover dots trong carousel
+        $('.owl-carousel .owl-dot').hover(function() {
+            $(this).click();
+        }, function() {});
+    </script>
+    <script>
     </script>
 </body>
 
