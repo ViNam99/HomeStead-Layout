@@ -23,3 +23,41 @@ article,
 figure {
     display: block;
 }
+
+
+/* header */
+
+.header {
+    background-color: #B06010;
+    padding: 1.3rem 0;
+    font-size: 1.4rem;
+    color: white
+}
+
+.header__content {
+    width: 75%;
+    margin: 0 auto
+}
+
+.header__content ul {
+    list-style: none;
+    display: flex;
+}
+
+.header__content ul li {
+    margin-left: 3rem
+}
+
+.header__content ul li i {
+    margin-right: 1rem
+}
+
+.header__content a {
+    text-decoration: none;
+    color: white
+}
+
+.header__content a:hover {
+    color: #204b87;
+    transition: all 0.5s
+}
