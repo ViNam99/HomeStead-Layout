@@ -61,3 +61,123 @@ figure {
     color: #204b87;
     transition: all 0.5s
 }
+
+
+/* nav */
+
+.nav {
+    padding: 1rem 0;
+}
+
+.nav__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 1.5rem
+}
+
+.nav ul {
+    display: flex;
+    align-items: center
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 0 1.5rem 0;
+}
+
+.nav__menu a:hover,
+a:focus {
+    color: #b06010;
+    transition: all 0.5s
+}
+
+.nav__logo a i {
+    font-size: 2.5rem;
+    color: #204b87;
+    margin-right: 1rem
+}
+
+.nav__logo a span {
+    color: black;
+    font-size: 2.8rem;
+    font-weight: bold
+}
+
+.nav__logo a p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #b06010;
+    letter-spacing: 0.6rem;
+    font-weight: 600;
+    margin-top: 0.5rem
+}
+
+.nav__menu li {
+    position: relative;
+}
+
+.nav__menu li:nth-child(4) ul {
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+    width: 100%;
+    display: block;
+    background-color: #e7e7e7;
+    display: none
+}
+
+.nav__menu li:nth-child(4) ul li:last-child {
+    margin-top: 1rem;
+}
+
+.nav__menu li:nth-child(4) ul li a:hover {
+    background-color: #204b87;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: white
+}
+
+.nav__menu li:nth-child(4):hover ul {
+    display: block;
+    padding: 1rem
+}
+
+.nav__contact ul li i {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    line-height: 3rem;
+    text-align: center;
+    color: white
+}
+
+.nav__contact ul li {
+    padding: 0 0.5rem
+}
+
+.nav__contact ul li a i:hover {
+    background-color: #fff;
+    color: #b06010;
+    border: 2px solid #b06010;
+    transition: all 0.5s
+}
+
+.nav__contact ul li:first-child i {
+    background-color: #3B5998;
+}
+
+.nav__contact ul li:nth-child(2) i {
+    background-color: #337ab7;
+}
+
+.nav__contact ul li:last-child i {
+    background-color: #F18CB3;
+}
