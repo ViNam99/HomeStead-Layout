@@ -366,3 +366,80 @@ a:focus {
 .future__inside h4 i {
     margin-right: 2rem
 }
+
+
+/* team */
+
+.team {
+    text-align: center
+}
+
+.team h2 {
+    font-size: 4rem;
+}
+
+.team__p {
+    color: #b06010;
+    letter-spacing: 0.6rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    padding: 1.5rem 0 10rem 0;
+}
+
+.team__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto
+}
+
+.team__content img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%
+}
+
+.team__items ul {
+    list-style: none;
+    border-top: 0.3rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team__items ul li {
+    padding-top: 2rem;
+    margin: 1rem
+}
+
+.team__items ul:hover {
+    border-top: 0.3rem solid #B06010;
+    transition: all 0.5s
+}
+
+.team__items ul li a {
+    text-decoration: none;
+    color: #204b87
+}
+
+.team__items ul li a:hover {
+    color: #B06010;
+    transition: all 0.5s
+}
+
+.team__items ul li a i {
+    font-size: 1.8rem
+}
+
+.team__items h3 {
+    font-size: 2rem;
+    padding: 3rem 0 2rem 0;
+    color: #B06010
+}
+
+.team__items p {
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+    color: #4f5667;
+}
