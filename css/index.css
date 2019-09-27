@@ -244,3 +244,65 @@ a:focus {
 .owl-theme .owl-dots .owl-dot span {
     background-color: #B06010
 }
+
+
+/* about */
+
+.about {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.about__head {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about__head .about__p {
+    color: #B06010;
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.6rem;
+}
+
+.about__head h2 {
+    font-size: 4rem
+}
+
+.about p {
+    color: #888;
+    font-size: 1.8rem;
+    line-height: 3.5rem
+}
+
+.about__bot {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+    padding-top: 5rem;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about__items i {
+    font-size: 4rem;
+    color: #204b87;
+    transform: rotatey(0);
+    transition: all 0.5s
+}
+
+.about__items h3 {
+    font-size: 2rem;
+    color: #B06010;
+    padding: 2rem 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.about__items i:hover {
+    color: #B06010;
+    transform: rotatey(180deg);
+    transition: all 0.5s
+}
