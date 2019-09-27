@@ -99,7 +99,7 @@
 
     </nav>
     <section class="carousel">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-one owl-carousel owl-theme">
             <div class="carousel__items item">
                 <img src="./img/banner.jpg" alt="">
                 <p>
@@ -277,6 +277,62 @@
         </div>
     </section>
     <section class="feedback">
+        <div class="feedback__content">
+            <div class="feedback__top">
+                <h2>Customer Feedback</h2>
+                <p>Etiam sodales orci sit amet vehicula pellentesque</p>
+            </div>
+            <div class="feedback__bot owl-two owl-carousel owl-theme">
+                <div class="item">
+                    <div class="feedback__p">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula pellentesque. </p>
+                    </div>
+                    <div class="feedback__img">
+                        <img src="./img/f1.jpg" alt="">
+                    </div>
+                    <div class="feedback__intro">
+                        <h4>Peter Paker</h4>
+                        <p>Vestibulum</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="feedback__p">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula pellentesque. </p>
+                    </div>
+                    <div class="feedback__img">
+                        <img src="./img/f2.jpg" alt="">
+                    </div>
+                    <div class="feedback__intro">
+                        <h4>Peter Paker</h4>
+                        <p>Vestibulum</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="feedback__p">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula pellentesque. </p>
+                    </div>
+                    <div class="feedback__img">
+                        <img src="./img/f3.jpg" alt="">
+                    </div>
+                    <div class="feedback__intro">
+                        <h4>Peter Paker</h4>
+                        <p>Vestibulum</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="feedback__p">
+                        <p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula pellentesque. </p>
+                    </div>
+                    <div class="feedback__img">
+                        <img src="./img/f4.jpg" alt="">
+                    </div>
+                    <div class="feedback__intro">
+                        <h4>Peter Paker</h4>
+                        <p>Vestibulum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
     <section class="overview">
@@ -291,7 +347,7 @@
     <!-- Owl carousel -->
     <script src="./js/owl.carousel.min.js"></script>
     <script>
-        var owl = $('.owl-carousel');
+        var owl = $('.owl-one');
         owl.owlCarousel({
             items: 1,
             loop: true,
@@ -301,12 +357,34 @@
             autoplayHoverPause: true
 
         });
+
         // hover dots trong carousel
-        $('.owl-carousel .owl-dot').hover(function() {
+        $('.owl-one .owl-dot').hover(function() {
             $(this).click();
         }, function() {});
     </script>
     <script>
+        $('.owl-two').owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 3
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+            // hover dots trong carousel
+        $('.owl-two .owl-dot').hover(function() {
+            $(this).click();
+        }, function() {});
     </script>
 </body>
 
