@@ -534,3 +534,55 @@ p {
 .owl-dots {
     bottom: -6rem
 }
+
+
+/* overview */
+
+.overview {
+    padding: 5rem 0;
+    text-align: center
+}
+
+.overview h2 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem
+}
+
+.overview__p {
+    display: block;
+    color: #b06010;
+    letter-spacing: 0.6rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 4rem
+}
+
+.overview__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 3.5rem;
+    background-color: #212121;
+    padding: 5rem 0
+}
+
+.overview__items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.overview__items i {
+    color: #B06010
+}
+
+.overview__inside p {
+    margin-left: 2rem;
+    color: white
+}
+
+.overview__inside p:first-child {
+    font-size: 3.5rem
+}
