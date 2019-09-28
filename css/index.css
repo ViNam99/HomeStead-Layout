@@ -236,7 +236,7 @@ a:focus {
     right: 5%;
 }
 
-.owl-dots {
+.owl-one .owl-dots {
     position: absolute;
     bottom: 20%;
     left: 48%;
