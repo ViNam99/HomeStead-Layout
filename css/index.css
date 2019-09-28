@@ -586,3 +586,163 @@ p {
 .overview__inside p:first-child {
     font-size: 3.5rem
 }
+
+
+/* footer */
+
+.footer {
+    padding: 5rem 0;
+    background-color: #000000;
+    color: #999;
+    font-size: 1.6rem
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    margin: 0 auto;
+    line-height: 4rem
+}
+
+.footer__items h3 {
+    color: white;
+    font-size: 2.5rem;
+    padding-bottom: 4rem
+}
+
+.footer__items ul {
+    list-style: none;
+}
+
+.footer__items i {
+    margin-right: 2rem
+}
+
+.footer__items ul li a {
+    text-decoration: none;
+    color: #999;
+}
+
+.footer__items:nth-child(2) ul {
+    display: flex;
+    align-items: center
+}
+
+.footer__items:nth-child(2) ul li a .fab {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    line-height: 3rem;
+    text-align: center;
+    color: white;
+    margin-right: 1rem
+}
+
+.footer__items:nth-child(2) ul li {
+    margin-top: 2rem
+}
+
+.footer__items:nth-child(2) ul li a i:hover {
+    background-color: black;
+    color: #b06010;
+    border: 2px solid #b06010;
+    transition: all 0.5s
+}
+
+.footer__items:nth-child(2) ul li:first-child i {
+    background-color: #3B5998;
+}
+
+.footer__items:nth-child(2) ul li:nth-child(2) i {
+    background-color: #337ab7;
+}
+
+.footer__items:nth-child(2) ul li:last-child i {
+    background-color: #ea4c89;
+}
+
+.footer__items:last-child i {
+    color: #015BB1
+}
+
+.footer__items:last-child a:hover {
+    color: #015BB1;
+    transition: all 0.5s
+}
+
+.footer__contact {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2rem
+}
+
+.footer__contact h3 {
+    color: white;
+    margin-bottom: 4rem;
+    font-size: 2.5rem
+}
+
+.footer__form form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.footer__form form input {
+    grid-column: 1 / span 2;
+    padding: 1.5rem;
+    background-color: rgb(27, 27, 27);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.footer__form form button {
+    width: 50%;
+    color: white;
+    background-color: #015BB1;
+    cursor: pointer;
+    border: none
+}
+
+.footer__form form button:hover {
+    background-color: #B06010;
+    transition: all 0.5s
+}
+
+
+/* modal */
+
+.modal {
+    text-align: center
+}
+
+.modal img {
+    width: 100%;
+}
+
+.modal__head h3 {
+    padding: 3rem 0;
+    font-size: 3rem;
+    color: #204b87;
+    letter-spacing: 0.1rem;
+    border-bottom: 0.1rem solid #e5e5e5;
+    margin-bottom: 2rem
+}
+
+.modal__content h3 {
+    padding: 2rem 0;
+    font-size: 2rem;
+    color: #B06010
+}
+
+.modal__content p {
+    margin: 1.5rem 0 1rem;
+    color: #888;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 3rem;
+}
