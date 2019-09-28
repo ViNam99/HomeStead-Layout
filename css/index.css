@@ -746,3 +746,30 @@ p {
     letter-spacing: 0.1rem;
     line-height: 3rem;
 }
+
+
+/* topTop */
+
+.toTop {
+    position: fixed;
+    right: 2rem;
+    bottom: 5rem
+}
+
+.toTop i {
+    font-size: 3rem;
+    line-height: 5rem;
+    border-top: 2px solid #0091A0;
+    text-align: center;
+    color: #0091A0
+}
+
+.toTop a {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.toTop .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
